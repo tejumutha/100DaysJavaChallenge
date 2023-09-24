@@ -1,0 +1,22 @@
+
+
+import java.util.*;
+
+public class day1 {
+
+	public static void main(String[] args) {
+		
+		int num = 21;
+		
+		if( num % 3==0 && num % 7 ==0)
+		{
+			System.out.println("yes");
+		}
+		else
+		{
+			System.out.println("no");
+		}
+		
+	}
+
+}
