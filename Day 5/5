@@ -1,0 +1,48 @@
+
+
+import java.util.*;
+
+public class day1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter marks of stud1 : ");
+		double a= sc.nextDouble();
+		
+		System.out.println("Enter marks of stud2 : ");
+		double b= sc.nextDouble();
+		
+		System.out.println("Enter marks of stud3 : ");
+		double c= sc.nextDouble();
+		
+		if(a>75 && a<=100)
+			System.out.println("student 1 A grade");
+		
+		else if(a>41 && a<= 75 )
+			System.out.println("student 1 B grade");
+		
+		else if(a>0 && a<=40 )
+			System.out.println("student 1 C grade");
+		
+		if(b>75 && b<=100)
+			System.out.println("student 2 A grade");
+		
+		else if(b>41 && b<= 75 )
+			System.out.println("student 2 B grade");
+		
+		else if(b>0 && b<=40 )
+			System.out.println("student 2 C grade");
+		
+		if(c>75 && c<=100)
+			System.out.println("student 3 A grade");
+		
+		else if(c>41 && c<= 75 )
+			System.out.println("student 3 B grade");
+		
+		else if(c>0 && c<=40 )
+			System.out.println("student 3 C grade");
+		
+	}
+
+}
