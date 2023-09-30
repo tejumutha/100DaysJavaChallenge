@@ -14,9 +14,13 @@ public class day6 {
 		{
 			System.out.println("Lower Case");
 		}
-		else
+		else if(ch>='A' && ch<='Z')
 		{
 			System.out.println("Upper Case");
+		}
+		else
+		{
+			System.out.println("Enter valid character");
 		}
 	}
 
