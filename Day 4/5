@@ -1,0 +1,18 @@
+
+
+import java.util.*;
+
+public class day4 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int age= sc.nextInt();
+		age = age * 12 ;
+		System.out.println("Age in months : " + age);
+		
+		
+		
+	}
+
+}
