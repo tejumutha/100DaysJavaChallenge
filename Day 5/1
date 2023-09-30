@@ -1,0 +1,17 @@
+
+
+import java.util.*;
+
+public class day5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter monthly salary : ");
+		double s= sc.nextDouble();
+		s = s/30 ;
+		System.out.println("Salary in months : " + s);
+		
+	}
+
+}
