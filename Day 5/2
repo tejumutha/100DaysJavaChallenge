@@ -1,0 +1,30 @@
+
+
+import java.util.*;
+
+public class day5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter marks of english : ");
+		double e= sc.nextDouble();
+		
+		System.out.println("Enter marks of maths : ");
+		double m= sc.nextDouble();
+		
+		System.out.println("Enter marks of science : ");
+		double s= sc.nextDouble();
+		
+		if(e>=75)
+			System.out.println("You got distinction in english with : " + e + " marks");
+		
+		if(m>=75)
+			System.out.println("You got distinction in marks with : " + m + " marks");
+		
+		if(s>=75)
+			System.out.println("You got distinction in science with : " + s + " marks");
+		
+	}
+
+}
