@@ -1,0 +1,27 @@
+
+
+import java.util.*;
+
+public class day1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter joining year : ");
+		int yr=sc.nextInt();
+		System.out.println("Enter salary amount : ");
+		double amt=sc.nextDouble();
+		
+		int curr_yr = 2023;
+		double bonus=0;
+		
+		if( curr_yr - yr > 5)
+		{
+			bonus = 0.05 * amt;
+		}
+		
+		System.out.println("Bonus amount is : " + bonus);
+		
+	}
+
+}
